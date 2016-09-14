@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Home</title>
+</head>
+
+<body>
+<header>
+	<h1>Tomato Toma-toe</h1>
+	<nav>
+	<ul>
+	   <li><a href="index.html">Home</a></li>
+	   <li><a href="recipes.html">Recipes</a></li>
+	   <li><a href="tomatolovers.html">Tomato Lovers Corner</a></li>
+	   <li><a href="resources.html">Resources</a></li>
+	   <li><a href="aboutus.html">About Us</a></li>
+	</ul>
+	</nav>
+</header>
+
+<cite>All Tomato</cite><blockquote><q>Absolutely nothing tastes better than a warm, home grown, vine-rigppened tomato on fresh-baked bread!</q></blockquote>
+<p><mark>California makes the best dip.</mark> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+</section>
+
+<main>
+<article>
+<section itemscope itemtype="http://schema.org/Recipe">
+<h2>Recipes</h2>
+<figure>
+<img src="../images/gazpachodip.jpe" alt="Gazpacho Dip" itemprop="image">
+</figure>
+<figcaption>The most delicious Gazpacho Dip in the world.</figcaption>
+<h4 itemprop="name">GAZPACHO DIP</h4>
+
+<p>Prep Time: <time datetime="PT5M" itemprop="prepTime">10 min</time> plus refrigerating</p>
+</section>
+
+	<ul>
+		<li itemprop="ingredients">1 tomato, chopped</li>
+		<li itemprop="ingredients">1/2 cup chopped cucumber</li>
+		<li itemprop="ingredients">1/2 cup chopped yellow peppers</li>
+		<li itemprop="ingredients">1/4 cup chopped red onions</li>
+		<li itemprop="ingredients">1/4 cup light Italian dressing</li>
+		<li itemprop="ingredients">1/8 tsp. ground black pepper</li>
+		<li itemprop="ingredients">RED OVAL FARMS MINI STONED WHEAT THINS Snack Crackers</li>
+	</ul>
+https://schema.org/NutritionInformation">	
+	<h4>Make It!</h4>
+	<p>COMBINE all ingredients except crackers.</p>
+	<p>REFRIGERATE 30 min.</p>
+	<p>SERVE with crackers</p>
+</section>
+
+<section itemscope itemtype="	
+	<p itemprop="servingSize">Nutrition Information Per Serving: <p itemprop="calories">140 calories
+	<p itemprop="fatContent">3g total fat</p>
+	<p itemprop="saturatedFatContent">0.5g saturated fat</p>
+	<p itemprop="sodiumContent">340mg sodium</p> 
+	<p itemprop="carbohydrateContent">24g carbohydrate</p>
+	<p itemprop="fiberContent">1g dietary fiber</p>
+	<p  itemprop="proteinContent">3g protein</p>
+</section>
+
+<section>
+<h2>Tomato Lovers Corner</h2>
+<p>I love my tomatoes and thought I would share my latest experience. Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+</section>
+
+	<article itemscope itemtype="http://schema.org/Organization">
+<section>
+<h2>About Us</h2>
+<h3>The Company</h3>
+<p itemprop="name">Tomato Toma-toe</p> <p>has been in business for one year.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+
+<h3>The CEO</h3>
+<p itemprop="founder">Rachelle Edmond, owner.</p><p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+</section>
+
+<section>
+<h2>Resource List</h2>
+<p>www.snackworks.com</p>
+<p>I found the Gazpacho Dip recipe on the back of one of their boxes for Mini Stoned Wheat Thins.</p>
+
+<p>www.alltomato.com</p>
+<p>Tomatoes- a tasty garden test. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+</section>
+
+</main>
+
+<aside>
+<h3>Events</h3>
+<p>Text will go here.</p>
+</aside>
+
+
+<footer>
+<h4>Contact Us:</h4>
+<address>
+<p itemprop="name">Tomato Toma-toe</p>
+<p itemprop="address">50002 New Lane</p>
+<p itemprop="address">Los Angeles, CA 90032</p>
+<p itemprop="telephone">866.334.5546</p>
+<p itemprop="email">email@tomatotomatoe.com</p>
+</address>
+<small>all content &copy;copyright 2016 Tomato Toma-toe | please read about us <a href="#">terms of use</a></small>
+</footer>
+	</article>
+</article>
+</body>
+</html>

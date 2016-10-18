@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<title>Home</title>
+	<link href="styles.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet"> 
+	<script src="//use.edgefonts.net/abel.js"></script>
+	<script src="_scripts/modernizr.js"></script>
+	//use the modernizr load to load up external scripts. When the scripts finish loading, run lettering.js. Check for support of web fonts, if supported call for Edge Fonts
+	Modernizr.load ([
+		{
+		load:
+		'http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js',
+		}, 
+		{
+		load:
+		'_scripts/jquery.lettering.js',
+		complete: function() {
+			$(document).ready(function(){
+			$("quote").lettering('words').children('span').lettering().children('span').contents().wrap('<span>');
+		});
+		}
+		},
+		{
+			//test for font face support
+			test: Modernizr.fontface,
+			//if supported, load in Edge Fonts
+			yep: 'http://use.edgefonts.net/bowlby-one-sc;bebas-neue;smythe;ultra.js'
+			}
+	]);
+	</script>
+</head>
+
+<body>
+<div class="banner1">
+	<h1>Tomato Toma-toe</h1>
+</div>
+
+<div class="navButton">	
+	<nav>
+	<ul>
+	   <li><a href="index.html" class="homelink">Home</a></li>
+	   <li><a href="recipes.html" class="recipeslink">Recipes</a></li>
+	   <li><a href="tomatolovers.html" class="tomatoloverslink">Tomato Lovers Corner</a></li>
+	   <li><a href="aboutus.html" class="aboutuslink">About Us</a></li>
+	</ul>
+	</nav>
+</div>
+
+<div class="quote">
+<cite>All Tomato</cite><blockquote><q>Absolutely nothing tastes better than a warm, home grown, vine-rigppened tomato on fresh-baked bread!</q></blockquote>
+<p><mark>California makes the best dip.</mark> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+</div>
+
+<section itemscope itemtype="http://schema.org/Recipe">
+<div class="recipe"> 
+
+<h2>Recipes</h2>
+<img src="images/gazpachodip.jpe alt="Gazpacho Dip" itemprop="image">
+<figcaption>The most delicious Gazpacho Dip in the world.</figcaption>
+<h4 itemprop="name">GAZPACHO DIP</h4>
+<p>What's New! Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+</div>
+</section>
+
+<div class="corner">
+<h2>Tomato Lovers Corner</h2>
+<p>I love my tomatoes and thought I would share my latest experience. Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+</div>
+
+<div class="aside">
+<h3>Events</h3>
+	<ul>
+		<li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+		<li>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</li> 
+		<li>when an unknown printer took a galley of type and scrambled it to make a type specimen book</li>
+	</ul>
+</div>
+
+<div class="footer">
+<h4>Contact Us:</h4>
+<address>
+<p itemprop="name">Tomato Toma-toe</p>
+<p itemprop="address">50002 New Lane</p>
+<p itemprop="address">Los Angeles, CA 90032</p>
+<p itemprop="telephone">866.334.5546</p>
+<p itemprop="email">email@tomatotomatoe.com</p>
+</address>
+<small>All content &copy;copyright 2016 Tomato Toma-toe | please read about us <a href="#">terms of use</a></small>
+</div>
+
+</body>
+</html>
